@@ -30,8 +30,8 @@ Communication is handled using the MQTT protocol via the PubSubClient library:
 
 •	Topics:
 
-o	Subscribe: HomeAutomationPrjct/Esp/Pubdata – receives mode/device commands
-o	Publish: HomeAutomationPrjct/Esp/Subdata – sends sensor data periodically.
+o	Subscribe: Subscribe topic – receives mode/device commands
+o	Publish: Publish topic – sends sensor data periodically.
 Commands format:
 The command the user mode which user selects and the choices that user has made on the states of the devices are combined into a single string the first character of the string specifies to the system which mode user has selected ,the 3 remaining characters are the states of the devices in this case there were 3 devices being used so it had 3 states devices re indexed each device has a index according to which is known by both user and system indexing allows for proper state control (ON/OFF) of devices . 
 Ex:-“m001” This command tells microcontroller that user wants to use manual mode and the states of devices are (0=OFF & 1=ON) OFF ,OFF, ON the third device will turn on while other devices will turn off.
