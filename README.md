@@ -53,6 +53,7 @@ While running on 3.7 v lipo battery in series with another 3.7v lipo battery for
 •	Power Efficiency:
 
 o	Delay-based sensor polling for simplicity.
+
 o	Could be improved later using sleep modes for power-saving.
 
 
