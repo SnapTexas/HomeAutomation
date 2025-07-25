@@ -31,19 +31,19 @@ int devices[]={fan_pin,humidity_pin,light_pin};
 char mode_selected='a';//by default the mode select is set to auto as the user has not interacted with devices
 //                     fan,humidity,light
 char devices_status[]={'0' ,'0' ,'0'};//These are the initial states of the devices
-const char* ssid="Shaikh";//These are the feilds/paramter that require the user to put their wifi name and password
-const char* passwd="Tplink7241";//IF not correctly put the values of ssid and password the micro controller will be stuck in trying to connect to server but it can't in a loop
+const char* ssid="Your-Wifi-Name";//These are the feilds/paramter that require the user to put their wifi name and password
+const char* passwd="Your-Wifi-Password";//IF not correctly put the values of ssid and password the micro controller will be stuck in trying to connect to server but it can't in a loop
 //display will also show nothing
 
 int publish_interval=10000;//Change the interval of time as required the esp8266 will publish data to esp->broker->user in 10 s time is stored in millis 
 
 unsigned long lastPublish=0;//Var used in the time interval calculations 
 // MQTT Broker
-const char* mqtt_server = "broker.hivemq.com";//MQTT broker server which we are using 
+const char* mqtt_server = "broker.hivemq.com";//MQTT broker server which we are using change if using some other broker
 const int mqtt_port = 1883; //Port of the server which we want to connect to
-const char* mqtt_sub_topic = "HomeAutomationPrjctFostride/Esp/Pubdata";// topic to subscribe to
-const char* mqtt_pub_topic = "HomeAutomationPrjctFostride/Esp/Subdata";// topic to publish to
-
+const char* mqtt_sub_topic = "Publishing topic for mqtt";// topic to subscribe to
+const char* mqtt_pub_topic = "Subscribing topic for mqtt";// topic to publish to
+const char* mqtt_device_id= "Create an id for your device";//Id could be any Combination of String or numbers 
 
 //creating a wifi client to connect with the internet 
 WiFiClient espClient;
@@ -105,7 +105,7 @@ void msg_recieved(char* topic,byte* payload, unsigned int length){
 void reconnect(){
   while(!client.connected()){
     Serial.print("Attempting MQTT connection...");
-    if(client.connect("ThisIsPrivateIdForEspHomeAutomation")){
+    if(client.connect(mqtt_device_id)){
       Serial.println("Connected");
       client.subscribe(mqtt_sub_topic);
     }
