@@ -1,0 +1,128 @@
+data from Esp8266
+ AQ:0.01 
+ AQ:0.01 
+ AQ:0.01 
+ AQ:0.01 
+ AQ:0.01 
+ AQ:0.01 
+ AQ:0.01 
+ AQ:0.01 
+t:27.40 °C h:85.30  AQ:4.97 
+t:27.80 °C h:95.90  AQ:30.34 
+t:27.80 °C h:95.90  AQ:23.74 
+t:27.80 °C h:95.90  AQ:2.66 
+t:27.80 °C h:95.40  AQ:22.75 
+t:27.80 °C h:95.40  AQ:21.79 
+t:27.90 °C h:95.40  AQ:19.94 
+t:27.90 °C h:94.90  AQ:3.42 
+t:27.90 °C h:94.90  AQ:19.06 
+t:27.90 °C h:94.90  AQ:2.90 
+t:27.90 °C h:94.60  AQ:18.21 
+t:27.90 °C h:94.90  AQ:18.21 
+t:27.90 °C h:94.60  AQ:17.38 
+t:28.00 °C h:94.50  AQ:17.38 
+t:28.00 °C h:94.50  AQ:7.84 
+t:28.00 °C h:94.50  AQ:22.75 
+t:28.00 °C h:94.50  AQ:32.80 
+t:28.00 °C h:94.50  AQ:28.02 
+t:28.00 °C h:94.20  AQ:32.80 
+t:28.00 °C h:94.20  AQ:30.34 
+t:28.00 °C h:94.20  AQ:19.06 
+t:28.00 °C h:94.20  AQ:29.16 
+t:28.00 °C h:94.20  AQ:28.02 
+t:28.00 °C h:94.20  AQ:28.02 
+t:28.00 °C h:94.20  AQ:23.74 
+t:28.00 °C h:94.20  AQ:25.82 
+t:28.00 °C h:94.20  AQ:23.74 
+t:28.00 °C h:94.20  AQ:23.74 
+t:28.00 °C h:94.20  AQ:23.74 
+t:28.00 °C h:94.20  AQ:22.75 
+t:28.00 °C h:94.20  AQ:13.63 
+t:28.00 °C h:94.20  AQ:12.95 
+t:28.00 °C h:94.20  AQ:15.05 
+t:28.00 °C h:94.20  AQ:16.58 
+t:28.00 °C h:94.20  AQ:17.38 
+t:28.00 °C h:94.20  AQ:18.21 
+t:28.00 °C h:93.80  AQ:8.33 
+t:28.00 °C h:94.20  AQ:19.06 
+t:28.00 °C h:93.80  AQ:19.94 
+t:28.00 °C h:94.20  AQ:19.94 
+t:28.00 °C h:93.80  AQ:9.35 
+t:28.00 °C h:93.80  AQ:20.85 
+t:28.00 °C h:93.80  AQ:20.85 
+t:28.00 °C h:93.80  AQ:9.35 
+t:28.00 °C h:93.80  AQ:21.79 
+t:28.00 °C h:93.80  AQ:9.90 
+t:28.00 °C h:93.80  AQ:21.79 
+t:28.00 °C h:93.80  AQ:21.79 
+t:28.00 °C h:93.80  AQ:21.79 
+t:28.00 °C h:93.80  AQ:22.75 
+t:28.00 °C h:93.80  AQ:36.73 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+temp:28.00C humid:93.20% aq:21.79 
+temp:28.00C humid:93.20% aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:12.95 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:12.95 
+temp:28.00C humid:93.20% light:ON aq:19.94 
+temp:28.00C humid:93.20% light:ON aq:12.95 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:19.94 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:12.95 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:93.20% light:ON aq:12.95 
+temp:28.00C humid:93.20% light:ON aq:20.85 
+temp:28.00C humid:92.80% light:ON aq:20.85 
+temp:28.00C humid:92.80% light:ON aq:20.85 
+temp:28.00C humid:92.80% light:ON aq:20.85 
+temp:28.00C humid:92.80% light:ON aq:20.85 
+temp:28.00C humid:92.80% aq:12.95 
+temp:28.00C humid:93.20% aq:21.79 
+temp:28.00C humid:92.80% light:ON aq:13.63 
+temp:28.00C humid:92.80% aq:21.79 
+temp:28.00C humid:92.80% aq:21.79 
+temp:28.00C humid:92.80% aq:21.79 
+temp:28.00C humid:92.80% aq:4.63 
+temp:28.00C humid:92.80% aq:13.63 
